@@ -6,7 +6,6 @@ public final class Tweets {
 
     private final String user;
     private final String message;
-
     private final LocalDateTime data;
 
     public Tweets(String user, String message, LocalDateTime data){
@@ -20,6 +19,10 @@ public final class Tweets {
     }
     public String getMessage() {
         return message;
+    }
+
+    public LocalDateTime getData() {
+        return data;
     }
 
     @Override
